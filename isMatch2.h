@@ -9,7 +9,7 @@
 #endif //TEST_ISMATCH2_H
 #include "string"
 using namespace std;
-class IsMatch2
+class isMatch2
 {
 public:
     /**
