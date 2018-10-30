@@ -1,13 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "longestPalindrome.h"
-#include "longestValidParentheses.h"
-#include "isMatch.h"
-#include "isMatch2.h"
-#include "minDistance.h"
-#include "threeSum.h"
-#include "maxProduct.h"
+#include "longestPalindrome.h"          // 5 最长回文子串
+#include "longestValidParentheses.h"    // 32 最长有效括号
+#include "isMatch.h"                    // 10 正则表达式匹配
+#include "isMatch2.h"                   // 44 通配符匹配
+#include "minDistance.h"                // 72 编辑距离
+#include "threeSum.h"                   // 15 三数之和
+#include "maxProduct.h"                 // 152 乘积最大子序列
+#include "isScramble.h"                 // 87 扰乱字符串
+#include "maxProfit.h"                  // 121 买股票的最佳时机
+#include "maxProfit2.h"                 // 122 买股票的最佳时机2
 using namespace std;
 int main()
 {
@@ -38,9 +41,23 @@ int main()
 //        }cout<<endl;
 //    }
 
-    MaxProduct so;
-    int arr[] = {2,-2,3,4};
-    vector<int> v(arr,arr+4);
-    cout<<so.maxProduct(v);
+//    MaxProduct so;
+//    int arr[] = {3,-2,2,4};
+//    vector<int> v(arr,arr+4);
+//    cout<<so.maxProduct(v);
+
+//    IsScramble so;
+//    cout<<so.isScramble("great","rgeat");
+
+//    int ar[] = {7,6,4,3,1,2};
+//    vector<int> v(ar,ar+6);
+//    MaxProfit so;
+//    cout<<so.maxProfit(v);
+
+    int ar[] = {7,6,4,3,1,2};
+    vector<int> v(ar,ar+6);
+    MaxProfit2 so;
+    cout<<so.maxProfit(v);
+
     return 0;
 }
