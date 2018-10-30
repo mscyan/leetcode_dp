@@ -54,8 +54,8 @@ int main()
 //    MaxProfit so;
 //    cout<<so.maxProfit(v);
 
-    int ar[] = {7,6,4,3,1,2};
-    vector<int> v(ar,ar+6);
+    int ar[] = {7,1,5,3,6,4,9,6};
+    vector<int> v(ar,ar+8);
     MaxProfit2 so;
     cout<<so.maxProfit(v);
 
