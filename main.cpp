@@ -9,8 +9,9 @@
 #include "threeSum.h"                   // 15 三数之和
 #include "maxProduct.h"                 // 152 乘积最大子序列
 #include "isScramble.h"                 // 87 扰乱字符串
-#include "maxProfit.h"                  // 121 买股票的最佳时机
-#include "maxProfit2.h"                 // 122 买股票的最佳时机2
+#include "maxProfit.h"                  // 121 买卖股票的最佳时机
+#include "maxProfit2.h"                 // 122 买卖股票的最佳时机2
+#include "maxProfit3.h"                 // 123 买卖股票的最佳时机3
 using namespace std;
 int main()
 {
@@ -54,9 +55,14 @@ int main()
 //    MaxProfit so;
 //    cout<<so.maxProfit(v);
 
-    int ar[] = {7,1,5,3,6,4,9,6};
+//    int ar[] = {7,1,5,3,6,4,9,6};
+//    vector<int> v(ar,ar+8);
+//    MaxProfit2 so;
+//    cout<<so.maxProfit(v);
+
+    int ar[] = {3,3,5,0,0,3,1,4};
     vector<int> v(ar,ar+8);
-    MaxProfit2 so;
+    MaxProfit3 so;
     cout<<so.maxProfit(v);
 
     return 0;
