@@ -1,17 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "longestPalindrome.h"          // 5 最长回文子串
-#include "longestValidParentheses.h"    // 32 最长有效括号
-#include "isMatch.h"                    // 10 正则表达式匹配
-#include "isMatch2.h"                   // 44 通配符匹配
-#include "minDistance.h"                // 72 编辑距离
-#include "threeSum.h"                   // 15 三数之和
-#include "maxProduct.h"                 // 152 乘积最大子序列
-#include "isScramble.h"                 // 87 扰乱字符串
-#include "maxProfit.h"                  // 121 买卖股票的最佳时机
-#include "maxProfit2.h"                 // 122 买卖股票的最佳时机2
-#include "maxProfit3.h"                 // 123 买卖股票的最佳时机3
+#include "longestPalindrome.h"          // 5    最长回文子串
+#include "longestValidParentheses.h"    // 32   最长有效括号
+#include "isMatch.h"                    // 10   正则表达式匹配
+#include "isMatch2.h"                   // 44   通配符匹配
+#include "minDistance.h"                // 72   编辑距离
+#include "threeSum.h"                   // 15   三数之和
+#include "maxProduct.h"                 // 152  乘积最大子序列
+#include "isScramble.h"                 // 87   扰乱字符串
+#include "maxProfit.h"                  // 121  买卖股票的最佳时机
+#include "maxProfit2.h"                 // 122  买卖股票的最佳时机2
+#include "maxProfit3.h"                 // 123  买卖股票的最佳时机3
+#include "minCut2.h"                    // 132  分割回文串2
 using namespace std;
 int main()
 {
@@ -60,10 +61,13 @@ int main()
 //    MaxProfit2 so;
 //    cout<<so.maxProfit(v);
 
-    int ar[] = {3,3,5,0,0,3,1,4};
-    vector<int> v(ar,ar+8);
-    MaxProfit3 so;
-    cout<<so.maxProfit(v);
+//    int ar[] = {3,3,5,0,0,3,1,4};
+//    vector<int> v(ar,ar+8);
+//    MaxProfit3 so;
+//    cout<<so.maxProfit(v);
+
+    MinCut2 so;
+    cout<<so.minCut("aaabaa");
 
     return 0;
 }
