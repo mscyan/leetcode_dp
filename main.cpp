@@ -13,6 +13,11 @@
 #include "maxProfit2.h"                 // 122  买卖股票的最佳时机2
 #include "maxProfit3.h"                 // 123  买卖股票的最佳时机3
 #include "minCut2.h"                    // 132  分割回文串2
+#include "lengthOfLIS.h"                // 300  最长上升子序列
+#include "minPathSum.h"                 // 64   最小路径和
+#include "cherryPickup.h"               // 741  摘樱桃
+#include "uniquePathsWithObstacles.h"   // 63   不同路径2
+#include "numDecodings.h"               // 91   解码方法
 using namespace std;
 int main()
 {
@@ -66,8 +71,47 @@ int main()
 //    MaxProfit3 so;
 //    cout<<so.maxProfit(v);
 
-    MinCut2 so;
-    cout<<so.minCut("aaabaa");
+//    MinCut2 so;
+//    cout<<so.minCut("aaabaa");
 
+//    LengthOfLIS so;
+//    int ar[] = {10,9,2,5,3,7,101,18};
+//    vector<int> v(ar,ar+8);
+//    cout<<so.lengthOfLIS(v);
+
+//    MinPathSum so;
+//    vector<vector<int>> vv;
+//    vector<int> v1 = {1,3,1};
+//    vector<int> v2 = {1,5,1};
+//    vector<int> v3 = {4,2,1};
+//    vv.push_back(v1);
+//    vv.push_back(v2);
+////    vv.push_back(v3);
+//    cout<<so.minPathSum(vv);
+
+//    CherryPickup so;
+//    vector<vector<int>> vv;
+//    vector<int> v1 = {0,1,-1};
+//    vector<int> v2 = {1,0,-1};
+//    vector<int> v3 = {1,1,1};
+//    vv.push_back(v1);
+//    vv.push_back(v2);
+//    vv.push_back(v3);
+//    cout<<so.cherryPickup(vv);
+
+//    UniquePathsWithObstacles so;
+//    vector<vector<int>> vv;
+//    vector<int> v1 = {0};
+//    vector<int> v2 = {1};
+//    vector<int> v3 = {0};
+//    vector<int> v4 = {0};
+//    vv.push_back(v1);
+//    vv.push_back(v2);
+//    vv.push_back(v3);
+//    vv.push_back(v4);
+//    cout<<so.uniquePathsWithObstacles(vv);
+
+    NumDecodings so;
+    cout<<so.numDecodings("23");
     return 0;
 }
