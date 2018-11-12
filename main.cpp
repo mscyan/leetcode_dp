@@ -18,6 +18,7 @@
 #include "cherryPickup.h"               // 741  摘樱桃
 #include "uniquePathsWithObstacles.h"   // 63   不同路径2
 #include "numDecodings.h"               // 91   解码方法
+#include "wordBreak.h"                  // 139  单词拆分
 using namespace std;
 int main()
 {
@@ -111,7 +112,11 @@ int main()
 //    vv.push_back(v4);
 //    cout<<so.uniquePathsWithObstacles(vv);
 
-    NumDecodings so;
-    cout<<so.numDecodings("23");
+//    NumDecodings so;
+//    cout<<so.numDecodings("23");
+
+    WordBread so;
+    vector<string> v ;
+    cout<<so.wordBreak("",v);
     return 0;
 }
